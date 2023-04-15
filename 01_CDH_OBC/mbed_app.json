@@ -1,0 +1,17 @@
+{
+    "config": {
+        "main_stack_size": {
+            "value": 8192
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "platform.stdio-baud-rate": 115200,
+            "platform.default-serial-baud-rate": 115200
+        }
+    },
+    "requires": [
+        "bare-metal"
+    ]
+}
