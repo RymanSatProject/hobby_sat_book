@@ -1,1 +1,13 @@
-# Telecomunication OBC
+# 簡易RSP-01 T系OBCソフトウェア
+
+本ディレクトリには、第7章のT系OBC用ソフトウェアのソースコードが格納されています。
+
+環境設定・ビルドの方法は[10_Ch7_Sup/sw-t.md](/10_Ch7_Sup/sw-t.md)を参照ください。
+
+PCとのBluetooth接続の方法については[10_Ch7_Sup/sw-t-pc.md](/10_Ch7_Sup/sw-t-pc.md)を参照ください。
+
+## 設定の変更
+
+### ブザーの音量を小さくする
+
+ブザーの音量は、`esp32/src/common/config.hpp`中の`CW_VOLUME_PERCENT`で設定されます。音を大きくするには100までの大きな値を、小さくするには0以上の小さな値を設定し、再度ビルド・アップロードしてください。
