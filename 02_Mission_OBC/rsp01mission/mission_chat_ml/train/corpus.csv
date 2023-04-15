@@ -1,0 +1,560 @@
+こんにちは〜,aisatsu_hiru
+今日は寒いね〜,zatsudan_tenki
+こんにちは。これからよろしくお願いします。今日はいい天気で暖かいですね。,zatsudan_tenki
+でも暖かすぎるせいか、眠いです。,zatsudan_tenki
+今どの辺を飛んでる？,q_status_ichi
+元気？,q_status_kibun
+生きてる？,q_status_kibun
+君のミッションは？？,q_01_mission
+よろしくね！,aisatsu_aiduchi
+いつ打ちあがった？,zatsudan_tanjobi
+願い事がかなうといいな,kanso_ganbo
+こんにちは,aisatsu_hiru
+いまどこ？,q_status_ichi
+寂しくない？,zatsudan_tomodachi
+いつまで宇宙にいるの？,q_status_kikan
+誕生日はいつ？,zatsudan_tanjobi
+おはにちばんは,aisatsu_hiru
+起きてる？,q_status_kibun
+死んでる？,q_status_kibun
+メッセージ読み上げて,q_01_mission
+いまどっち向いてるの？,q_01_shisei
+話し相手して,zatsudan_omikuji
+なんのために宇宙に行ったの？,q_01_mission
+地球が恋しい？,zatsudan_tomodachi
+こんにちは！寒くなってきましたが宇宙は寒いですか。そちらはどんな景色ですか？,zatsudan_tenki
+身長は？,q_01_shiyo
+体重は？,q_01_shiyo
+温度は？,q_status_ondo
+こんにちは,aisatsu_hiru
+こんにちは,aisatsu_hiru
+疲れてますか？,q_status_kibun
+Hello world!,aisatsu_hiru
+いつも何食べてるの？,q_status_denryoku
+宇宙から見る日食はキレイですか？,q_keshiki_tikyu
+電圧は？,q_status_denryoku
+こんにちは,aisatsu_hiru
+メッセージ送りたいです,aisatsu_aiduchi
+地球は青いですか？,q_keshiki_tikyu
+いつ地球に帰ってくるの？,q_status_kikan
+地球はどんな風に見える？,q_keshiki_tikyu
+ここで一句！,aisatsu_joke
+流れ星は見えますか？,q_keshiki_uchu
+新年明けましておめでとう,aisatsu_hiru
+新年の抱負は？,kanso_ganbo
+オーロラは何色ですか？,q_keshiki_tikyu
+生まれはどこ？,zatsudan_tanjobi
+ISSの事どう思う？,zatsudan_tomodachi
+一人は寂しいでしょう。,zatsudan_tomodachi
+ボケが甘い！,aisatsu_aiduchi
+ありがとうございます,aisatsu_aiduchi
+意外とイケメンですね。,aisatsu_kantanshi
+こんにちは,aisatsu_hiru
+おはよう,aisatsu_asa
+超楽しそう！,aisatsu_kantanshi
+景色みたい,q_keshiki_tikyu
+どんな景色？,q_keshiki_tikyu
+どれくらいの時間で通信できるの？,q_01_tsushin
+地球と衛星の距離は？,q_01_kido
+何が見える？,q_keshiki_uchu
+私も連れてってください！,aisatsu_aiduchi
+宇宙はどうだい？,q_keshiki_uchu
+近くに他の衛星ある？,zatsudan_tomodachi
+好きな食べ物は？,q_konomi
+好きな曲は？,q_konomi
+好きな色は？,q_konomi
+私の街見える？,q_keshiki_tikyu
+宇宙人見えたら教えて,zatsudan_tomodachi
+ナイス！,aisatsu_aiduchi
+GJ！,aisatsu_eigo
+塩対応キツ！,aisatsu_aiduchi
+性別？,q_01_shiyo
+宇宙はどんな感じ？,q_keshiki_uchu
+宇宙飛行士とお友達ですか,zatsudan_tomodachi
+好きです,aisatsu_aiduchi
+最近フラれました(TT),aisatsu_aiduchi
+何か面白い事ありませんか,aisatsu_joke
+ちゃんとご飯を食べてますか？,q_status_denryoku
+お腹減らない？,q_status_denryoku
+お母ちゃんは、そんな子に育てた覚えはありません！,kanso_ikari
+願い事を叶えてください,kanso_ganbo
+バイバイ！,aisatsu_aiduchi
+ハロー,aisatsu_hiru
+こんにちは,aisatsu_hiru
+さようなら,aisatsu_aiduchi
+ひまー,zatsudan_omikuji
+遊ぼうよ,zatsudan_omikuji
+ここ見える？,q_keshiki_tikyu
+今日は何するの？,q_01_mission
+今日の天気教えて,zatsudan_tenki
+明日の天気教えて,zatsudan_tenki
+明日晴れるかな,zatsudan_tenki
+今日は晴れるよね？,zatsudan_tenki
+バッテリー充電残量どのくらい？,q_status_denryoku
+明日雨降らないといいな,zatsudan_tenki
+放射線は痛いですか,q_status_kibun
+３時に起こして,zatsudan_jikan
+通信状態はどう？,q_status_tsushin
+何してるの？,q_01_mission
+好きな食べ物は？,q_konomi
+今日何食べようかな,q_status_denryoku
+私も宇宙に行ってみたいな,kanso_ganbo
+寒いの？,q_status_ondo
+暑いの？,q_status_ondo
+宇宙って真っ暗？,q_keshiki_uchu
+地球見える？,q_keshiki_tikyu
+金メダル、ゲット〜！,zatsudan_tomodachi
+花火は見える？,q_keshiki_tikyu
+負けた,zatsudan_tomodachi
+慰めて,zatsudan_tomodachi
+お金ほしい,zatsudan_omikuji
+お金持ちになりたい,zatsudan_omikuji
+はやく家に帰りたい,zatsudan_tomodachi
+そっちはどう？,q_status_zenpan
+疲れたー,kanso_oen
+かわいいね,zatsudan_tomodachi
+そっちは楽しい？,q_status_zenpan
+寂しくないの？,q_status_zenpan
+おはよう,aisatsu_asa
+お金があったら、何が欲しい？,kanso_ganbo
+地球は青い？,q_keshiki_tikyu
+将来の夢は？,q_yume
+目標はあるの？,q_01_mission
+いつ帰ってくるの？,q_01_mission
+得意な科目はなんですか？,q_konomi
+特技を教えて,q_konomi
+写真撮れた？,q_01_syashin
+山,q_keshiki_tikyu
+イエス,aisatsu_eigo
+ノー,aisatsu_eigo
+行きたいところはある？,q_yume
+好きな映画は？,q_konomi
+今の気分は？,q_status_kibun
+宿題したくない,kanso_oen
+好きな色は？,q_konomi
+ご趣味は？,q_konomi
+どこ飛んでますか？,q_01_kido
+ロケットの乗り心地はいかが？,zatsudan_uchu_rocket
+日本上空ですか？,q_status_ichi
+海の上ですか？,q_status_ichi
+がんばれー,kanso_oen
+応援してます,kanso_oen
+メッセージ入れました,kanso_oen
+寒いですか？,q_status_ondo
+熱いですか？,q_status_ondo
+暗いですか？,q_status_zenpan
+明るいですか？,q_status_zenpan
+眩しいですか？,q_status_zenpan
+月は見えますか？,q_keshiki_uchu
+火星は見えますか？,q_keshiki_uchu
+発電していますか？,q_status_denryoku
+何が見えますか？,q_keshiki_uchu
+地球は見えますか？,q_keshiki_tikyu
+好きな衛星は？,q_konomi
+おはよう,aisatsu_asa
+おはようございます,aisatsu_asa
+こんばんわ,aisatsu_yoru
+こんばんは,aisatsu_yoru
+好きな星座は？,q_konomi
+今何歳なの？,zatsudan_tanjobi
+気温はどれくらい？,q_status_ondo
+地球の天気は見える？,q_keshiki_tikyu
+英語喋れる？,aisatsu_eigo
+あなたは誰？,q_rsp
+お疲れ様です,kanso_oen
+明けましておめでとうございます。,aisatsu_aiduchi
+明日は部分日食があるね。,aisatsu_aiduchi
+今日は天気もいいけど風もちょっと強い。,q_status_zenpan
+今どこにいるの？,q_status_ichi
+宇宙から見た地球ってどんな感じ？,q_keshiki_tikyu
+夜景はきれいですか？,q_keshiki_tikyu
+何か話して,aisatsu_joke
+今日の一言をください,zatsudan_omikuji
+誕生日は？,zatsudan_tanjobi
+元気？,q_status_kibun
+お元気？,q_status_kibun
+おみくじひいた？,zatsudan_omikuji
+大吉しかひいたことないわ,zatsudan_omikuji
+今日のラッキーカラーは？,zatsudan_omikuji
+晩御飯なににしようかな？,zatsudan_tomodachi
+地球はどう見える？,q_keshiki_tikyu
+お友達はいる？,zatsudan_tomodachi
+電力はどうしてるの？,q_status_denryoku
+寿命は？,q_status_kikan
+悪いところはある？,q_status_kibun
+好きなロケットは？,zatsudan_uchu_rocket
+親はいる？,zatsudan_tomodachi
+生まれ変わったら何になりたい？,q_yume
+今日は天気がいいから、一時間近く外を歩いてきたよ。,zatsudan_tomodachi
+そういえば君に名前はあるの？,q_01_mission
+今何時？,zatsudan_jikan
+どんな音楽が好き？,q_konomi
+好きな色は？,q_konomi
+願い事はいくつあるの？,q_01_mission
+周回軌道は？,q_01_kido
+疲れた、励まして！,zatsudan_tomodachi
+お腹すいた？,q_status_denryoku
+こんにちは,aisatsu_hiru
+疲れたよパトラッシュ,aisatsu_aiduchi
+星が綺麗？,q_keshiki_uchu
+今どんな感じ？,q_status_kibun
+なんでやねん！,zatsudan_tomodachi
+地球は寒いよ,zatsudan_tenki
+近くに誰かいる？,zatsudan_tomodachi
+銀河鉄道は見える？,zatsudan_tomodachi
+今何時？,zatsudan_jikan
+はじめまして,aisatsu_aiduchi
+リーマンサット最高ー！,kanso_home
+まぶしい,zatsudan_tenki
+眠いよ〜,zatsudan_tomodachi
+こんばんは,aisatsu_yoru
+おはよう,aisatsu_asa
+仕事終わった,zatsudan_tomodachi
+開発はつらかった？,q_rsp
+うまく動いてる？,q_01_mission
+夜景は見える？,q_keshiki_uchu
+おーいブラジルの人,aisatsu_joke
+今日は寒いね,q_status_ondo
+私の写真撮って！,q_01_syashin
+そのうちカーズは考えるのをやめた,aisatsu_aiduchi
+寂しくない？,zatsudan_tomodachi
+応援してます,kanso_oen
+お茶飲んでホッとしたい,zatsudan_tomodachi
+地球から見えるかな？,q_keshiki_tikyu
+シズル感のある写真プリーズ,q_01_syashin
+調子はどう？,q_status_kibun
+今どこにおるん？,q_status_ichi
+地球はきれいですか？,q_keshiki_tikyu
+色から音を感じるのと、音から色を感じるの、どっちの方が得意？,zatsudan_tomodachi
+太陽はどんな様子？,q_keshiki_uchu
+地球は元気そう？,q_keshiki_tikyu
+宇宙人はいる？,zatsudan_tomodachi
+流星になってほしい,zatsudan_tomodachi
+いまどこ？,q_status_ichi
+今何時？,zatsudan_jikan
+おはよう！,aisatsu_asa
+ただいま！,aisatsu_aiduchi
+おとぎ話が聞きたい,zatsudan_tomodachi
+面白い話して,aisatsu_joke
+ジョーク言って,aisatsu_joke
+おなかすいた,zatsudan_tomodachi
+電気グルーヴは石野卓球ともう一人は？,zatsudan_tomodachi
+広報部の新年会が終わりました。,zatsudan_tomodachi
+暑くない？,q_status_ondo
+暗くない？,q_status_zenpan
+寒くない？,q_status_ondo
+なんだか疲れちゃった,zatsudan_tomodachi
+寒い〜,q_status_ondo
+心がおれた…,zatsudan_tomodachi
+宇宙にいきたい,kanso_ganbo
+明日晴れるかな？,zatsudan_tenki
+いまの気分は？,q_status_kibun
+地球について一言!,q_keshiki_tikyu
+さむいよ～((( ；ﾟДﾟ))),zatsudan_tenki
+返信まだーー？,kanso_ikari
+宇宙ってどんなとこ？,q_keshiki_uchu
+where are you?,q_status_ichi
+おはよう #宇宙 #衛星,aisatsu_asa
+流星群キレイだったね,q_keshiki_uchu
+元気？,q_status_kibun
+これは一人の人間にとっては小さな一歩だが人類にとっては偉大な飛躍である 😏,zatsudan_uchu_meigen
+ok! selfish 今日の天気を教えて,zatsudan_tenki
+おすすめのテレビ番組は？,q_konomi
+サラリーマン衛星0号機に次ぐ初号機の打ち上げ成功,kanso_oen
+打ち上げ成功おめでとうございます！,kanso_oen
+#selfishから返事返ってきた!,kanso_oen
+selfishは何歳ですか？,zatsudan_tanjobi
+衛星作ってみたい!,kanso_ganbo
+今日はこちらは曇っています。そちらはどうですか？,zatsudan_tenki
+おはようごさいまっす,aisatsu_asa
+日食見えた？,q_keshiki_uchu
+次の日食はいつ？,q_keshiki_uchu
+(ρ_-)ノ オハヨ,aisatsu_asa
+何ができるの？,q_01_mission
+你好,aisatsu_hiru
+Hello！,aisatsu_eigo
+Hello❗️,aisatsu_eigo
+ビール飲みたい,aisatsu_aiduchi
+お名前は？,q_01_shiyo
+暑い,q_status_ondo
+おはようちゃん❗️,aisatsu_asa
+今どの辺飛んでるの？,q_status_ichi
+こんばんは,aisatsu_yoru
+元気ですか？,q_status_kibun
+つかれた,aisatsu_aiduchi
+名前言って❗,q_01_shiyo
+こんにちわ,aisatsu_hiru
+今どの辺を飛んでいますか？,q_status_ichi
+何が見えますか？,q_keshiki_uchu
+一人で寂しくないですか？,zatsudan_tomodachi
+夜は真っ暗なんですか？,q_keshiki_uchu
+宇宙って暑いんですか？,q_status_ondo
+宇宙って寒いんですか？,q_status_ondo
+ぐるぐる回転して気持ち悪くならないですか？,q_01_shisei
+ロケットの乗り心地はどうでしたか？,zatsudan_uchu_rocket
+宇宙に来て後悔してないですか？,q_status_kibun
+ボーっと生きてんじゃねーよ！,kanso_ikari
+あけましておめでとうございます。,aisatsu_hiru
+あけおめ！,aisatsu_hiru
+何が見えてるー？,q_keshiki_uchu
+今だから言えることってありますか？,zatsudan_uchu_meigen
+あなたは男の子？女の子？,q_01_shiyo
+それでも男ですか、軟弱者!!,kanso_ikari
+レスポンス遅いよ！,kanso_ikari
+レスポンス早い！,kanso_home
+やるじゃん,kanso_oen
+いや、その理屈はおかしい。,aisatsu_aiduchi
+おめでとう！,kanso_oen
+今どんな気分ですか？,q_status_kibun
+宇宙に来てどれ位たちましたか？,q_status_kikan
+ありがとう！,kanso_oen
+どういたしまして。,aisatsu_aiduchi
+台風の写真を送って下さい。,q_01_syashin
+オーロラの写真を送って下さい。,q_01_syashin
+ほんのジョークです。,aisatsu_joke
+ローバーと通信したんですか？,q_status_tsushin
+日本上空で写真撮って！,q_01_syashin
+無様ね,kanso_ikari
+大丈夫ですか？,q_status_kibun
+お気に入りはどこですか？,q_konomi
+ありえんわ,kanso_ikari
+何言ってるんですか？,kanso_ikari
+あんたバカ？,kanso_ikari
+なんやねん,kanso_ikari
+いい加減にしなさい,kanso_ikari
+黙れ！,kanso_ikari
+黙ってろ！,kanso_ikari
+バイバイ,aisatsu_aiduchi
+残念です,kanso_ikari
+最近どーよ？,q_status_kibun
+つまんね,kanso_ikari
+誕生日おめでとう！,zatsudan_tanjobi
+誕オメ！,zatsudan_tanjobi
+今何か欲しいものありますか？,q_konomi
+キタコレ！,kanso_home
+おっす！,aisatsu_hiru
+うぃっす！,aisatsu_hiru
+卒論間に合わなかった,zatsudan_tomodachi
+笑えない,kanso_ikari
+ニート決定w,zatsudan_tomodachi
+わけわからん,kanso_ikari
+つまんね,kanso_ikari
+期待ハズレだわ,kanso_ikari
+えらいね！,kanso_home
+内部温度を教えて下さい,q_status_ondo
+バッテリー状態を教えて下さい,q_status_denryoku
+A dream you dream alone is only a dream. A dream you dream together is reality.,zatsudan_uchu_meigen
+ひとりで見る夢はただの夢、みんなで見る夢は現実になる。,zatsudan_uchu_meigen
+僕の言うことなんて、半分は意味もない。ただ君と繋がりたくて話しているんだ。,zatsudan_uchu_meigen
+もし今日が人生最後の日だとしたら、今やろうとしていることは 本当に自分のやりたいことだろうか？,zatsudan_uchu_meigen
+If today were the last day of my life would I want to do what I'm about to do today.,zatsudan_uchu_meigen
+宇宙好き？,q_konomi
+好きな食べものは？,q_konomi
+好きな色は？,q_konomi
+500件近いデータをもらったそうだね！すごいね！,kanso_home
+お！返答が変わってるね！,kanso_home
+「受け取った」だけか(笑),kanso_ikari
+今日の体調は？,q_status_kibun
+こんばんは。今日はいつもよりも暖かいよ。雪も降ってない。,zatsudan_tenki
+こんにちは。,aisatsu_hiru
+今どこにいるの？,q_status_ichi
+宇宙に来て何日目？,q_status_kikan
+今何度？,q_status_ondo
+写真撮って,q_01_syashin
+日本上空に来たら、教えて,kanso_ganbo
+帰ってくるの？,q_status_kikan
+ひま,zatsudan_tomodachi
+太陽光パネルでどのくらい発電してるの？,q_status_denryoku
+暑い,zatsudan_tenki
+宇宙も寒いの？,q_status_ondo
+つくばは寒いよ,zatsudan_tenki
+今日の運勢おしえて！,zatsudan_omikuji
+お肉とお魚どっちが好き？,q_konomi
+今日のラッキーカラーおしえて！,zatsudan_omikuji
+今日のラッキーアイテムは？,zatsudan_omikuji
+出会いがほしい！,zatsudan_tomodachi
+寒くなりましたねぇ,zatsudan_tenki
+暑くなりましたねぇ,zatsudan_tenki
+お元気そうですね,aisatsu_aiduchi
+アマ無線的に大丈夫？,q_status_tsushin
+アマチュア無線的にTiwtterとか大丈夫なんでうか？,q_status_tsushin
+今日寒くない？,zatsudan_tenki
+宇宙は綺麗？,q_keshiki_uchu
+地球は青い？,q_keshiki_tikyu
+太陽はあつい？,q_status_ondo
+宇宙は寒い？,q_status_ondo
+手振ってるの見える？,q_keshiki_tikyu
+人間は小さい？,q_keshiki_tikyu
+月まではどれぐらい？,q_keshiki_uchu
+botの友達はいる？紹介して！,zatsudan_tomodachi
+おみくじ中吉やったけどビミョー,zatsudan_omikuji
+斜め上を行くメッセージを下さい,zatsudan_tomodachi
+宇宙って広い？,q_keshiki_uchu
+磁気トルカって何？,q_01_shisei
+いつ帰ってくる？,q_status_kikan
+んちゃ！,aisatsu_hiru
+どんな通信してるの？,q_status_tsushin
+リーマンサットについて教えて,q_rsp
+すき！,kanso_oen
+結婚して,kanso_oen
+好きな人いる？,q_konomi
+モテる？,q_konomi
+推してます,kanso_oen
+寒い,zatsudan_tenki
+いつ、打ち上がるの❓,q_status_kikan
+何年の何月に❓,q_status_kikan
+いまの高度は,q_status_ichi
+暑さ,q_status_ondo
+寒さ,q_status_ondo
+おはよう,aisatsu_asa
+おやすみ,aisatsu_yoru
+あっついの？さっむいの？,q_status_ondo
+何ができるの？,q_01_mission
+台風見える？,q_keshiki_tikyu
+台風見える？,q_keshiki_tikyu
+こんにちは！宇宙は寒いですか？暑いですか？,q_status_ondo
+空からはどんな景色が見えていますか？,q_keshiki_uchu
+地球はどれくらい大きいですか？,q_keshiki_tikyu
+旅は順調ですか？,q_status_kibun
+おはよう！,aisatsu_asa
+今日の気分は？,q_status_kibun
+宇宙に来て何日目かな？,q_status_kikan
+カッコいいね。,kanso_home
+何が見える？,q_keshiki_uchu
+おはよう,aisatsu_asa
+こんにちは,aisatsu_hiru
+こんばんは,aisatsu_yoru
+元気？,q_status_kibun
+会えて嬉しいよ^_^,aisatsu_kantanshi
+大切なものは何かな？,q_yume
+ありがとう。,aisatsu_kantanshi
+感謝しているよ。,aisatsu_kantanshi
+ハッピーだよ,aisatsu_kantanshi
+また会おう。,aisatsu_kantanshi
+最高だね。,aisatsu_kantanshi
+地球からどれぐらいのところにいるの？,q_status_ichi
+楽しいね。,aisatsu_kantanshi
+今日も素晴らしい日だよ。,aisatsu_kantanshi
+May The Force Be With You.,zatsudan_uchu_meigen
+I’m happy.,aisatsu_kantanshi
+Nice to see you again.,aisatsu_kantanshi
+今の温度は？,q_status_ondo
+台風見える？,q_keshiki_tikyu
+你好,aisatsu_aiduchi
+Good morning!,aisatsu_asa
+星は綺麗に見えますか？,q_keshiki_uchu
+孤独ではないですか？,q_status_kibun
+お父さんは誰ですか？,q_rsp
+今日誕生日です！,zatsudan_tanjobi
+毎日お疲れ様。,kanso_oen
+星は見えますか？,q_keshiki_uchu
+何が見える？,q_keshiki_uchu
+地球は青いですか？,q_keshiki_tikyu
+北海道では、気温が20℃を下回っており寒いです！,zatsudan_tenki
+人口衛星開発、頑張って下さい！,kanso_oen
+いまどこ？,q_status_ichi
+すきです。,aisatsu_kantanshi
+毎日暑いですが、元気ですか？,q_status_kibun
+地球の様子はどう？,q_keshiki_tikyu
+宇宙で飲む飲み物は何がいいですか？,aisatsu_aiduchi
+そちらからの景色はどうですか？,q_keshiki_uchu
+地球を見た感想を教えてください,q_keshiki_tikyu
+宇宙はどんなところですか？,q_keshiki_uchu
+いまどこ？,q_status_ichi
+宇宙に着いた感想を教えて下さい！,q_keshiki_uchu
+地球の我々に向けて一言お願いします！,zatsudan_omikuji
+大好きだよー,aisatsu_kantanshi
+きのうはよく眠れた？,q_status_zenpan
+そちらから見た地球はどうですか？,q_keshiki_tikyu
+宇宙から見た地球はどうですか？,q_keshiki_tikyu
+私が見えますか？,q_keshiki_tikyu
+今地球のどこが見えていますか,q_keshiki_tikyu
+日本の明日のお天気はわかりますか？,zatsudan_tenki
+ご飯食べた？,q_status_denryoku
+目まわらない？,q_01_shisei
+宇宙は楽しいですか？,q_status_kibun
+月見える？,q_keshiki_uchu
+今日で何日目？,zatsudan_jikan
+地球は青いかい？,q_keshiki_tikyu
+いつからそこにいるの？,zatsudan_jikan
+いつ帰ってくるの？,zatsudan_jikan
+帰ってこないの？,zatsudan_jikan
+お腹すかないの？,q_status_denryoku
+明日は晴れるかな？,zatsudan_tenki
+暑い,q_status_ondo
+今日の地球は？,q_keshiki_tikyu
+写真撮って,q_01_mission
+アーム伸ばして,q_01_mission
+今どこ？,q_status_ichi
+今どこ？,q_status_ichi
+お腹すいた？,q_status_denryoku
+友達できたかい？,zatsudan_tomodachi
+今日も地球は美しいですか？,q_keshiki_tikyu
+調子がわるい時はありますか？,q_status_kibun
+台風はいつ来るの,zatsudan_tenki
+今朝は雨が降りました。,zatsudan_tenki
+おはようからおやすみまで,aisatsu_asa
+そちらは何軌道？,q_01_kido
+友達はできたかい？,zatsudan_tomodachi
+目まわってないかい？,q_01_shisei
+宇宙の景色はどうですか？,q_keshiki_uchu
+宇宙の景色を教えて,q_keshiki_uchu
+何が見える？,q_keshiki_uchu
+暗くない？,zatsudan_tenki
+寂しくない？,zatsudan_tomodachi
+今年の夏も暑いですね〜,zatsudan_tenki
+きょうは暑いね,zatsudan_tenki
+星座は見えますか？,q_keshiki_uchu
+元気の元は何ですか？,q_status_kibun
+リーマンサットって楽しい？,q_rsp
+さみしくない？,q_status_kibun
+いまはどこの上？,q_status_ichi
+姿勢制御できてますか?,q_01_shisei
+日本に帰りたいかい？,q_status_kibun
+身長は何センチですか,q_01_shiyo
+地球でみんなが見守ってるよ,kanso_oen
+月と太陽ではどちらが好きですか？,q_konomi
+宇宙は好きですか?,q_konomi
+言われるとうれしい言葉は何ですか?,zatsudan_uchu_meigen
+座右の銘は何ですか?,zatsudan_uchu_meigen
+子供の頃の夢は何でしたか?,q_yume
+今、一番やりたいことは何ですか?,q_yume
+好きな芸能人は誰ですか?,q_konomi
+好きな音楽は何ですか?,q_konomi
+自分の体で好きなところはどこですか?,q_konomi
+海と山ではどちらが好きですか?,q_konomi
+田舎と都会。住みたいのはどちらですか。,q_konomi
+友達はできたかい？,zatsudan_tomodachi
+元気ですか？,q_status_kibun
+趣味は？,q_konomi
+いつ地球に戻るの？,zatsudan_jikan
+今何が見える？,q_keshiki_uchu
+アメリカの衛星とは仲良くやってる？,zatsudan_tomodachi
+リーマンサットって何？,q_rsp
+明日天気にしてください！,kanso_ganbo
+おはよう！,aisatsu_asa
+おやすみなさい！,aisatsu_yoru
+地球はどうみえる！,q_keshiki_tikyu
+アンドロイドは電気羊の夢を見るか,zatsudan_uchu_meigen
+全体主義運動は大衆運動である。それは今日までに現代の大衆が見出した、彼らにふさわしいと思われる唯一の組織形態だ。この点で既に、全体主義運動はすべての政党と異なっている。,zatsudan_uchu_meigen
+芸術とは芸術家が芸術だと思って作るが、超芸術は超芸術家が何とも知らずに無意識に作るもの超芸術にはアシスタントはいても作者はいない、ただそこに超芸術を発見する者だけがいる,zatsudan_uchu_meigen
+好きになれない相手にすら成り立つ一般的信頼が十分に存在するコミュニティでは、信頼を超えて規範となる,zatsudan_uchu_meigen
+眠ろうという努力は眠りを遠ざける,zatsudan_uchu_meigen
+ひとつの閉鎖系、かつては自己増殖できたけれどもそうではなくなった過去の対象に、切断面を入れて開放系にしていく,zatsudan_uchu_meigen
+文化活動は贈与が原動力交換を促す原動力として作用し続ける,zatsudan_uchu_meigen
+我々は自分が正しくあろうと望むのではない。自分が正しい(賢い、礼儀正しい、優れている)人間だと信じたいのである。,zatsudan_uchu_meigen
+私はそうでもないけど、みんな欲しがるから私もそれに合わせて仕方なく欲しがっているふりをしているだけ,zatsudan_uchu_meigen
+映画は死んだ。もうフィルムはありえない。さあ、討論に移りましょう,zatsudan_uchu_meigen
+反知性主義は単なる知性への軽蔑と同義ではない。知性が権威と結びつくことに対する反発であり、何事も自分自身で判断しなおすことを求める態度である。だからこそ反知性主義は、宗教的な確信を背景にして育つ。,zatsudan_uchu_meigen
+大切な事は心のノートにメモっとけ！,zatsudan_uchu_meigen
+どうやって通信しているの,q_01_tsushin
+通信教えて,q_01_tsushin
+僕と通信してください,q_01_tsushin
+通信で何を飛ばしているの,q_01_tsushin
+個人も通信できるのでしょうか,q_01_tsushin
+通信が途切れることはないの,q_status_tsushin
+通信が途切れたらどうなるの,q_status_tsushin
+通信できていないのでは,q_status_tsushin
+アンテナから電波出てますか,q_status_tsushin
+アンテナで受信できてますか,q_status_tsushin
+アンテナで送信できてますか,q_status_tsushin

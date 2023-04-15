@@ -1,0 +1,16 @@
+@startuml
+salt
+
+{
+  {T
+   + rsp-01
+   ++ RaspberryPiZero
+   +++ Raspbian Stretch Lite
+   ++++ python2.7
+   ++++ pyenv + virtualenv
+   +++++ tensorflow 1.10.0
+   ++++++ mission_image_recognition
+  }
+}
+
+@enduml

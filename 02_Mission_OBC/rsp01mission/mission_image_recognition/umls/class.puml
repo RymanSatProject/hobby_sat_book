@@ -1,0 +1,56 @@
+@startuml
+
+skinparam handwritten true
+
+class main
+class main_l
+class main_m
+
+class Classification {
+    predict_one()
+    predict_all()
+}
+class Status
+class Pic
+class PicManager {
+    next_pic()
+    get_good_pic_ids()
+}
+class PicDb
+class Learning {
+    learn()
+}
+
+object db
+object LearningImages
+object CameraImages
+object Model
+object main_get.sh
+object main_start.sh
+object mission_main
+
+Pic <-- PicManager
+PicDb <-- PicManager
+PicDb <-- Pic
+db <-- PicDb
+Pic <-- Classification
+PicManager <-- Classification
+PicManager <-- main
+Status <-- Classification
+Model <-- Classification
+CameraImages <-- Pic
+Classification <-- main
+Pic <-- main
+Status <-- main
+main <-- main_get.sh
+main <-- main_start.sh
+main_get.sh <-- mission_main
+main_start.sh <-- mission_main
+
+LearningImages <-- Learning
+Learning <-- main_l
+
+Model .. Learning
+LearningImages .. main_m
+
+@enduml
