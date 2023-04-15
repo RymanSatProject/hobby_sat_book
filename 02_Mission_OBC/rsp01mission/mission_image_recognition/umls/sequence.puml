@@ -1,0 +1,49 @@
+@startuml
+
+skinparam handwritten true
+
+地上 -> "C&DH": 画像分類開始コマンド
+"C&DH" -> mission_main: 画像分類開始コマンド
+mission_main -> mission_image_recognition: コマンド実行
+mission_image_recognition -> main_start.sh: コマンド実行
+main_start.sh -> main: 画像分類開始
+main -> log: 状態を書き込み
+mission_image_recognition -> log: 状態を確認（sleep 後）
+mission_main <-- mission_image_recognition: コマンド実行結果
+"C&DH" <-- mission_main: コマンド実行結果
+地上 <-- "C&DH": コマンド実行結果
+
+地上 -> "C&DH": 画像分類状態取得コマンド
+"C&DH" -> mission_main: 画像分類状態取得コマンド
+mission_main -> mission_image_recognition: コマンド実行
+mission_image_recognition -> main_start.sh: コマンド実行
+main_start.sh -> main: 画像分類状態取得
+mission_image_recognition <-- main: 状態結果
+mission_main <-- mission_image_recognition: 状態結果
+"C&DH" <-- mission_main: 状態結果
+地上 <-- "C&DH": 状態結果
+
+地上 -> "C&DH": 画像分類処理停止コマンド
+"C&DH" -> mission_main: 画像分類処理停止コマンド
+mission_main -> mission_image_recognition: コマンド実行
+mission_image_recognition -> main_start.sh: コマンド実行
+main_start.sh -> main: 画像分類処理停止
+mission_image_recognition <-- main: 停止結果
+mission_main <-- mission_image_recognition: 停止結果
+"C&DH" <-- mission_main: 停止結果
+地上 <-- "C&DH": 停止結果
+
+地上 -> "C&DH": 画像分類結果取得コマンド
+"C&DH" -> mission_main: 画像分類結果取得コマンド
+mission_main -> mission_image_recognition: コマンド実行
+mission_image_recognition -> main_get.sh: コマンド実行
+main_get.sh -> main: 画像分類結果取得
+mission_image_recognition <-- main: 画像分類結果
+mission_main <-- mission_image_recognition: 画像分類結果
+"C&DH" <-- mission_main: 画像分類結果
+地上 <-- "C&DH": 画像分類結果
+
+' log と image を入れたほうがわかりやすいかも
+' mission_image_recognition も追加する
+
+@enduml

@@ -1,0 +1,8 @@
+future==0.16.0
+iso8601==0.1.12
+Pillow==5.2.0
+pyserial==3.4
+PyYAML==3.12
+reedsolo==1.7.0
+tailer==0.4.1
+pytest==4.6.3

@@ -1,0 +1,36 @@
+@startuml
+
+skinparam handwritten true
+
+package rsp01 {
+    package Arduino {
+        [アンテナ]
+        [送信機]
+        [CDH]
+    }
+    package RaspberryPi {
+        [mission_main]
+        [chat]
+        [camera]
+        [images]
+        [image_recognition]
+    }
+}
+
+地上システム -> アンテナ: コマンド
+アンテナ -> CDH: コマンド
+CDH -> mission_main: コマンド
+mission_main -> chat: コマンド
+mission_main -> camera: コマンド
+camera -> images: 出力
+mission_main -> image_recognition: コマンド
+image_recognition -> images: 参照
+
+mission_main <-- image_recognition: レスポンス
+mission_main <-- camera: レスポンス
+mission_main <-- chat: レスポンス
+CDH <-- mission_main: レスポンス
+送信機 <-- CDH: レスポンス
+地上システム <-- 送信機: レスポンス
+
+@enduml

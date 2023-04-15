@@ -1,0 +1,22 @@
+@startuml
+
+skinparam handwritten true
+
+actor ItoSan
+
+node 地上系システム
+
+ItoSan -> 地上系システム: コマンド
+ItoSan <-- 地上系システム: レスポンス
+
+node rsp01 {
+    package Arduino
+    package RaspberryPi
+}
+
+地上系システム -> Arduino: コマンド
+地上系システム <-- Arduino: レスポンス
+Arduino -> RaspberryPi: コマンド
+Arduino <-- RaspberryPi: レスポンス
+
+@enduml

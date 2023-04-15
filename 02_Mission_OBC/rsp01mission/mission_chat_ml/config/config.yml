@@ -1,0 +1,65 @@
+#
+# 設定ファイル
+#
+
+# 実行モード
+# pro : 本番環境
+# 上記以外     : 指定文字列の環境（config-xxx.yml を読み込み実行される）
+activeProfile: pro
+
+# 要求メッセージファイルを削除するか（本番時は絶対にTrueにすること）
+isDelReq: True
+
+# コーパス
+corpusPath: /train/corpus.csv
+
+# 
+# モデルの保存先
+# 
+modelSavePath: /config/model/chat.model
+svcSavePath: /config/model/svc.pkl
+scdvSavePath: /config/model/scdv.pkl
+gmmClusterSavePath: /config/model/gmm_cluster.pkl
+gmmProbClusterSavePath: /config/model/gmm_prob_cluster.pkl
+
+#
+# 自己発信メッセージ関係
+#
+# 初回起動メッセージのテンプレパス
+pathFirstResMsg: /config/first-res-msg.txt
+
+# グッバイメッセージ判定文字列
+goodbyeMsg: SPECIALCOMMANDGOODBYSELFISHYOUCANDOIT
+
+# グッバイメッセージの分類文字列
+goodbyeMsgClassfier: goodbye
+
+#
+# 要求メッセージ関係
+#
+# 要求メッセージファイルの格納ディレクトリ
+pathReqMsg: /data/req
+
+# 未処理ロックファイルパス
+pathReqLockFile: /data/req/lock.lock
+
+#
+# 応答メッセージ関係
+#
+# 応答メッセージファイルの格納ディレクトリ
+pathResMsg: /data/res
+
+# 応答メッセージロックファイルパス
+pathResLockFile: /data/res/lock.lock
+
+# 応答メッセージテンプレート格納ディレクトリ
+pathResMsgDir: /config/res_message
+
+# ログ関係
+# ログ設定ファイルのパス
+logConfigPath: /config/logging.yml
+# ログディレクトリ
+pathLogs: /logs
+
+# 応答メッセージ生成プロセスの１処理ごとの待機時間（秒）
+resMsgProcLoopInterval: 2

@@ -1,0 +1,9 @@
+numpy==1.16.2
+scipy==1.2.1
+Werkzeug==0.15.1
+https://github.com/lhelontra/tensorflow-on-arm/releases/download/v1.11.0/tensorflow-1.11.0-cp27-none-linux_armv6l.whl
+Keras==2.2.4
+pathlib==1.0.1
+Pillow==5.4.1
+tailer==0.4.1
+pbr==5.1.3

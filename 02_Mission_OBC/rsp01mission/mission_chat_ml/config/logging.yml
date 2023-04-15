@@ -1,0 +1,47 @@
+version: 1
+
+# 出力フォーマット
+formatters:
+  custmoFormatter:
+    format: '[%(asctime)s] %(levelname)s - %(filename)s#%(funcName)s:%(lineno)d: %(message)s'
+    datefmt: '%Y/%m/%d %H:%M:%S'
+
+loggers:
+  test:
+    handlers: [fileRotatingHandler,consoleHandler]
+    level: DEBUG
+    qualname: test
+    propagate: no
+
+  file:
+    handlers: [fileRotatingHandler]
+    level: DEBUG
+    qualname: file
+    propagate: no
+
+  console:
+    handlers: [consoleHandler]
+    level: DEBUG
+    qualname: console
+    propagate: no
+
+handlers:
+  fileRotatingHandler:
+    level: DEBUG
+    formatter: custmoFormatter
+    class: logging.handlers.TimedRotatingFileHandler
+    filename: /rsp01/mission_chat_ml/logs/chat_ml.log
+    encoding: utf8
+    when: 'D'
+    interval: 1
+    backupCount: 3
+
+  consoleHandler:
+    level: DEBUG
+    formatter: custmoFormatter
+    class: logging.StreamHandler
+    stream: ext://sys.stdout
+
+root:
+  level: DEBUG
+  handlers: [fileRotatingHandler,consoleHandler]
