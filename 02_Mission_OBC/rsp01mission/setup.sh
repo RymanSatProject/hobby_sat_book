@@ -66,6 +66,12 @@ do
   pip install $line
 done
 
+## model download
+wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1fP_KVUDkrC_2WKm5vrmWGHEHJZXq2UaA' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fP_KVUDkrC_2WKm5vrmWGHEHJZXq2UaA" -O /tmp/main.tflite && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=16k4LXLy7yFlx29m7owAK38hsaKZoinhL' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=16k4LXLy7yFlx29m7owAK38hsaKZoinhL" -O /tmp/main.h5 && rm -rf /tmp/cookies.txt
+mv /tmp/main.tflite /rsp01/mission_image_recognition/ml/models/.
+mv /tmp/main.h5 /rsp01/mission_image_recognition/ml/models/.
+
 # mission_main
 cd $PJ_ROOT/mission_main
 pyenv install 3.5.3
