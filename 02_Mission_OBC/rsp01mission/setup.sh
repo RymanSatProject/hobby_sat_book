@@ -1,5 +1,19 @@
 #!/bin/bash
 
+# Prompt
+echo "*** Important! ***"
+echo "This shell takes a very long time. (about 18 hours!!)"
+echo -n "Do you want to run it? [Y/n]: "
+
+read ANS
+case $ANS in
+  "" | [Yy]* )
+    ;;
+  * )
+    exit 0
+    ;;
+esac
+
 # swap to 2GB
 sudo sed -i -e "s/^CONF_SWAPSIZE=.*/CONF_SWAPSIZE=2048/g" /etc/dphys-swapfile
 sudo service dphys-swapfile restart
