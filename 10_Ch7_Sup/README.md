@@ -7,3 +7,4 @@
 - T系ソフトウェア: [sw-t.md](sw-t.md)
 - T系OBCとPCとの接続設定: [sw-t-pc.md](sw-t-pc.md)
 - ターミナルについて: [sw-terminal.md](sw-terminal.md)
+- Raspberry Pi Zeroの設定について: [pi-setting.md](pi-setting.md)
