@@ -2,9 +2,20 @@
 
 本フォルダ、第7章を進めるにあたって必要なソフトウェアの説明及び補足情報が入っています。
 
-- 購入部品・工具リスト: [こちら(Excel)](parts/RSP-01Lite%E9%83%A8%E5%93%81%E3%83%BB%E5%B7%A5%E5%85%B7%E3%83%AA%E3%82%B9%E3%83%88.xlsx)
+- 購入部品・工具リスト(代替部品記載有り): [こちら(Excel)](parts/RSP-01Lite_Parts_ToolList.xlsx)
 - C系ソフトウェア: [sw-c.md](sw-c.md)
 - T系ソフトウェア: [sw-t.md](sw-t.md)
 - T系OBCとPCとの接続設定: [sw-t-pc.md](sw-t-pc.md)
 - ターミナルについて: [sw-terminal.md](sw-terminal.md)
 - Raspberry Pi Zeroの設定について: [pi-setting.md](pi-setting.md)
+
+
+## P178 図66の組み上げ後、アームが動かない場合
+
+### 1.モーターにコンデンサを追加する
+
+モーターのノイズをI2Cが引き込んで動作しにくい場合があります。モーターに0.1μFのコンデンサを3個はんだ付けして見て下さい。参考写真[こちら](img/P178_fig66.jpg)
+
+### 2.ギア、軸受けにグリスを塗布する
+
+ギアボックスの各種ギアやシャフトの軸受けにグリスを塗布することで負荷が減ります。参考[タミヤ モリブデングリス](https://www.tamiya.com/japan/products/87022/index.html)
