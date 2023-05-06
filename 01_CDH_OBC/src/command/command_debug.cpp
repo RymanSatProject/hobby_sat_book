@@ -35,10 +35,12 @@ void Command::cmd_debug(Telecommand &cmd) {
             break;
 
         case 1:
+            logger_base("Testing arm\n");
             dev->arm->force_extend(3000, 3050);
-            break;
 
-        case 2:
+            wait_us(200 * 1000);
+
+            logger_base("Testing RW\n");
             dev->rw->clear_fault();
             dev->rw->control(3000, DRV8830::MODE_FORWARD);
             wait_us(3 * 1000 * 1000);
@@ -47,7 +49,7 @@ void Command::cmd_debug(Telecommand &cmd) {
             break;
 
         case 11:
-            dev->arm->force_fold(3000, 2570);
+            dev->arm->force_fold(3000, 3050);
             break;
 
         case 12:
