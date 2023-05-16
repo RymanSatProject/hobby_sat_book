@@ -636,7 +636,7 @@ To Solar Panel
 Text Notes 9100 3300 0    50   ~ 0
 To Battery
 Text Notes 9100 4050 0    50   ~ 0
-To ARM MOTOR
+To MOTOR
 Connection ~ 2050 4250
 Connection ~ 2050 3550
 Wire Wire Line
