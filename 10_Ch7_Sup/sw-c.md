@@ -124,7 +124,7 @@ Python 3.8.12
 
 ### mbed-cliのインストール
 
-以下のコマンドを実行すしてmbed-cliをインストールします。
+以下のコマンドを実行してmbed-cliをインストールします。
 
 ```bash
 pip install mbed-cli
