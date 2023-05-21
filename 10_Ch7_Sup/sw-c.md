@@ -37,6 +37,9 @@ PCの再起動後、Microsoft Storeを開きます。（上と同様に「スタ
 
 表示された「Ubuntu 20.04.5 LTS」の「入手」をクリックし、ダウンロード・インストールします。
 
+※2023/5/21時点、Microsoft Storeにて「Ubuntu 20.04.5 LTS」は表示されず「Ubuntu 20.04.6 LTS」が表示されます。   
+「Ubuntu 20.04.6 LTS」でも動作チェック済みですので、「Ubuntu 20.04.6 LTS」をダウンロード・インストールしてください。
+
 ![image](img/sw-wsl-get-ubuntu.png)
 
 完了すると、スタートメニューに「Ubuntu 20.04.5 LTS」が現れるので、それをクリックして起動します。
