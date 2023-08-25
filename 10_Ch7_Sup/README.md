@@ -8,6 +8,7 @@
 - T系OBCとPCとの接続設定: [sw-t-pc.md](sw-t-pc.md)
 - ターミナルについて: [sw-terminal.md](sw-terminal.md)
 - Raspberry Pi Zeroの設定について: [pi-setting.md](pi-setting.md)
+- コマンドリスト: [こちら(Excel)](design/RSP-01Lite_CommandList.xlsx)
 
 
 ## P144 図9でBMX055表示が出ない場合
