@@ -27,3 +27,33 @@ STM32のB2（黒いボタン）を押すことでリセットがかかり、表�
 ### 2.ギア、軸受けにグリスを塗布する
 
 ギアボックスの各種ギアやシャフトの軸受けにグリスを塗布することで負荷が減ります。参考[タミヤ モリブデングリス](https://www.tamiya.com/japan/products/87022/index.html)
+
+## P150 apt update で 404 Not Found が発生する場合
+2023/10/7 時点で、``` apt update ``` を行うと以下のエラーメッセージが表示されます。
+
+```
+$ sudo apt update && sudo apt upgrade -y
+
+Hit:1 http://archive.raspberrypi.org/debian stretch InRelease
+Ign:2 http://raspbian.raspberrypi.org/raspbian stretch InRelease
+Err:3 http://raspbian.raspberrypi.org/raspbian stretch Release
+  404  Not Found
+Reading package lists... Done
+E: The repository 'http://raspbian.raspberrypi.org/raspbian stretch Release' does no longer have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+```
+
+上記が発生した場合は、リポジトリの参照先を変更する必要があります。
+
+```
+# sources.list を開く
+sudo vi /etc/apt/sources.list
+```
+
+以下のようにリポジトリの参照先を変更します。
+
+```
+#deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
+deb http://legacy.raspbian.org/raspbian/ stretch main contrib non-free rpi
+```
